@@ -1,7 +1,11 @@
 import React from 'react';
 
 function About(props) {
-	return <div>About</div>;
+	return (
+		<div>
+			<style>{'.nav-about { text-decoration: none; }'}</style>
+		</div>
+	);
 }
 
 export default About;

@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Projects(props) {
-	return <div>Projects</div>;
+	return (
+		<div>
+			<style>{'.nav-projects { text-decoration: none; }'}</style>
+		</div>
+	);
 }
 
 export default Projects;

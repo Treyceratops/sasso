@@ -1,38 +1,92 @@
 .App {
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: .12em;
+  word-spacing: .16em;
   text-align: center;
+  /* display: grid;
+  grid-template-areas:
+    'nav nav nav'
+    'main main main'
+    'main main main'
+    'main main main'
+    'main main main';
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .main {
+  grid-area: main;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
+  /* grid-area: nav; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.nav {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding-top: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-bar a {
+  color: black;
+  margin-right: 2rem;
+}
+
+.nav-logo {
+  height: 3rem;
+  width: auto;
+  float: left;
+  margin-left: 2rem;
+}
+
+.remodel-out {
+  margin-right: 10rem;
+  color: #8A898C;
+  /* font-family: Helvetica Neue; */
+  font-size: 2.5rem;
+  letter-spacing: -0.1rem;
+  /* animation-duration: 3s; */
+  animation-delay: 1s;
+}
+
+.repair-in {
+  animation-delay: 1s;
+}
+
+.repair-out {
+  color: #8A898C;
+  /* font-family: Helvetica Neue; */
+  font-size: 2.5rem;
+  letter-spacing: -0.1rem;
+  /* animation-duration: 3s; */
+  animation-delay: 2s;
+}
+
+.reimagine-in {
+  animation-delay: 2s;
+}
+
+.reimagine-out {
+  color: #8A898C;
+  /* font-family: Helvetica Neue; */
+  font-size: 2.5rem;
+  margin-left: 10rem;
+  letter-spacing: -0.1rem;
+  /* animation-duration: 3s; */
+  animation-delay: 3s;
+}
+
+.home-logo {
+  width: 30rem;
+  height: auto;
+  animation-duration: 6s;
+  animation-delay: 4s;
 }

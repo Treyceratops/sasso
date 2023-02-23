@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import EmailIcon from '../images/email-icon.png';
 import PhoneIcon from '../images/phone-icon.png';
 import InstaIcon from '../images/insta-icon.png';
@@ -41,7 +40,10 @@ function Connect(props) {
 				<div>
 					<img className='connect-icons' src={InstaIcon} alt='insta-icon' />
 					<br />
-					<a className='link' target='_blank' href='https://www.instagram.com/'>
+					<a
+						className='link'
+						target='_blank'
+						href='https://www.instagram.com/sassoconstructioninc/'>
 						@SASSOinc
 					</a>
 					<hr />
@@ -62,7 +64,6 @@ function Connect(props) {
 					</a>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 }

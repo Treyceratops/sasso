@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import Logo from '../images/SI-01 Logo_RGB.png';
 import 'animate.css';
 
@@ -34,7 +33,6 @@ function Home(props) {
 				src={Logo}
 				alt='sassoinc-logo'
 			/>
-			<Footer />
 		</div>
 	);
 }

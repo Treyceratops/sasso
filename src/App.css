@@ -33,14 +33,14 @@
   z-index: 1;
   top: 0;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .nav-bar a {
   color: black;
-  transform: translate(-2rem, 1.5rem);
+  transform: translate(-2rem, 2.3rem);
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .nav-logo {
-  height: 3rem;
+  height: 4rem;
   width: auto;
   float: left;
   transform: translateX(2rem);
@@ -212,21 +212,44 @@
 
 @media only screen and (max-width: 1060px) {
 
+  .nav-logo {
+      height: 2rem;
+      width: auto;
+      transform: translateX(2rem);
+    }
+
   .bathroom-renovation-pic-container {
     float: none;
     margin: auto;
+    width: 30rem;
+    height: 18rem;
+  }
+
+  .bathroom-renovation-pic {
+    width: 30rem;
+    height: auto;
   }
 
   .owners-pic-container {
     float: none;
     margin: auto;
+    width: 20rem;
+    height: auto;
+  }
+
+  .owners-pic {
+    width: 20rem;
+    height: auto;
+  }
+
+  .connect {
+    padding-bottom: 15rem;
   }
 
   .connect-pic-container {
     float: none;
     margin: auto;
     margin-bottom: 3rem;
-    /* transform: translateY(-1rem); */
     width: 20rem;
     height: 22rem;
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import Logo from '../images/SI-01 Logo_RGB.png';
 import 'animate.css';
 
@@ -6,10 +7,12 @@ function Home(props) {
 	return (
 		<div className='home main'>
 			<style>
-				{'.nav-home { text-decoration: none; }'}
+				{'.nav-home { font-weight: bold; }'}
 				{'body { background-color: RGB(0, 0, 0); }'}
 				{'.nav-bar a { color: white; }'}
-				{/* {'.nav-logo { visibility: hidden; }'} */}
+				{'.nav { background: black; }'}
+				{'.nav-logo { visibility: hidden; }'}
+				{'.footer { color: white; }'}
 			</style>
 			<div className='remodel-in animate__animated animate__fadeIn'>
 				<h2 className='remodel-out animate__animated animate__fadeOut'>
@@ -31,6 +34,7 @@ function Home(props) {
 				src={Logo}
 				alt='sassoinc-logo'
 			/>
+			<Footer />
 		</div>
 	);
 }

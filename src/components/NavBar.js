@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../images/SI-01 Logo_BW.png';
+import Logo from '../images/SI-01 Logo_RGB.png';
 
 function NavBar(props) {
 	return (

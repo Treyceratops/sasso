@@ -33,27 +33,31 @@
   z-index: 1;
   top: 0;
   padding-top: 1rem;
+  padding-bottom: 2rem;
+  background: white;
 }
 
 .nav-bar a {
   color: black;
-  margin-right: 2rem;
+  transform: translate(-2rem, 1.5rem);
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
 }
 
 .nav-logo {
   height: 3rem;
   width: auto;
   float: left;
-  margin-left: 2rem;
+  transform: translateX(2rem);
 }
 
 .remodel-out {
-  margin-right: 10rem;
   color: #8A898C;
-  /* font-family: Helvetica Neue; */
   font-size: 2.5rem;
   letter-spacing: -0.1rem;
-  /* animation-duration: 3s; */
   animation-delay: 1s;
 }
 
@@ -63,10 +67,8 @@
 
 .repair-out {
   color: #8A898C;
-  /* font-family: Helvetica Neue; */
   font-size: 2.5rem;
   letter-spacing: -0.1rem;
-  /* animation-duration: 3s; */
   animation-delay: 2s;
 }
 
@@ -76,11 +78,8 @@
 
 .reimagine-out {
   color: #8A898C;
-  /* font-family: Helvetica Neue; */
   font-size: 2.5rem;
-  margin-left: 10rem;
   letter-spacing: -0.1rem;
-  /* animation-duration: 3s; */
   animation-delay: 3s;
 }
 
@@ -88,5 +87,73 @@
   width: 30rem;
   height: auto;
   animation-duration: 6s;
-  animation-delay: 4s;
+  animation-delay: 3.5s;
+}
+
+.connect {
+  background: #009344;
+  padding: 5rem;
+}
+
+.connect-pic-container {
+  width: 38rem;
+  height: auto;
+  float: right;
+  overflow: hidden;
+}
+
+.connect-pic {
+  width: 38rem;
+  height: auto;
+  transition: 2s ease-in-out;
+}
+
+.connect-pic:hover {
+  filter: saturate(1.5);
+  transform: scale(1.2);
+}
+
+.connect-divs {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect a {
+  color: white;
+}
+
+.connect a:hover {
+  color: black;
+}
+
+.connect-icons {
+  width: 3rem;
+  height: auto;
+}
+.connect hr {
+  width: 15rem;
+  border: 1px solid #8A898C;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  font-size: .8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-logo {
+  height: 2rem;
+  width: auto;
+  transform: translateY(1rem);
+}
+
+@media only screen and (max-width: 700px) {
+  .connect-pic {
+    float: none;
+    width: 100%;
+  }
 }

@@ -16,7 +16,7 @@ function About(props) {
 				{'body { background: white; }'}
 			</style>
 			<div className='about-red-block'>
-				<p data-aos='fade-up-right'>
+				<p data-aos='fade-right'>
 					Sasso Construction is a gay-owned and -operated general and electrical
 					contracting company specializing in exterior and exterior remodels in
 					San Francisco and the Bay Area.
@@ -28,12 +28,12 @@ function About(props) {
 						alt='bathroom-renovation-pic'
 					/>
 				</div>
-				<p data-aos='fade-up-right'>
+				<p data-aos='fade-right'>
 					Whether it’s in a high rise, condo, or single-family home, we have 15
 					years of experience in a variety of projects, including but not
 					limited to:
 				</p>
-				<ul data-aos='fade-up-right'>
+				<ul data-aos='fade-right'>
 					<li>Kitchen Remodels</li>
 					<li>Bath Remodels</li>
 					<li>Full House Reconfigurations</li>
@@ -53,7 +53,7 @@ function About(props) {
 						alt='bathroom-renovation-pic'
 					/>
 				</div> */}
-				<p data-aos='fade-up-right'>
+				<p data-aos='fade-right'>
 					Every project has its own particular needs and challenges. Sasso
 					Construction, Inc. has the experience and know-how to turn your vision
 					into a reality. Let’s build something together!
@@ -63,8 +63,8 @@ function About(props) {
 				<div className='owners-pic-container'>
 					<img className='owners-pic' src={Owners} alt='owners-pic' />
 				</div>
-				<h3 data-aos='fade-up-left'>Paul Sasso (Principal)</h3>
-				<p data-aos='fade-up-left'>
+				<h3 data-aos='fade-left'>Paul Sasso (Principal)</h3>
+				<p data-aos='fade-left'>
 					Paul continues a family tradition of building. He combines real-life
 					experience in multiple trades with over two decades of experience
 					heading residential construction companies. Paul brings quality
@@ -76,8 +76,8 @@ function About(props) {
 					satisfaction.
 				</p>
 				<br />
-				<h3 data-aos='fade-up-left'>Brian Stamper (Principal)</h3>
-				<p data-aos='fade-up-left'>
+				<h3 data-aos='fade-left'>Brian Stamper (Principal)</h3>
+				<p data-aos='fade-left'>
 					Brian began his 25 years of experience in commercial construction
 					where he learned almost every aspect of the business, along with the
 					best practices necessary for project success. He combines estimating,

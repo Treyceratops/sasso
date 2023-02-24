@@ -210,35 +210,56 @@
   transform: translateY(1rem);
 }
 
+@media only screen and (max-width: 700px) {
+    p,
+      ul,
+      a,
+      h2 {
+        font-size: 3vw;
+      }
+}
+
 @media only screen and (max-width: 1060px) {
 
   .nav-logo {
-      height: 2rem;
-      width: auto;
-      transform: translateX(2rem);
-    }
+    height: 2rem;
+    width: auto;
+    transform: translateX(2rem);
+  }
+
+  .home-logo {
+    width: 100%;
+    height: auto;
+    max-width: 30rem;
+    min-width: 18rem;
+  }
 
   .bathroom-renovation-pic-container {
     float: none;
     margin: auto;
-    width: 30rem;
-    height: 18rem;
+    width: 100%;
+    max-width: 41rem;
+    min-width: 15rem;
+    height: auto;
   }
 
   .bathroom-renovation-pic {
-    width: 30rem;
+    width: 110%;
     height: auto;
+              transform: scale(1.05);
   }
 
   .owners-pic-container {
     float: none;
     margin: auto;
-    width: 20rem;
+    width: 90%;
+    max-width: 25rem;
+    min-width: 15rem;
     height: auto;
   }
 
   .owners-pic {
-    width: 20rem;
+    width: 100%;
     height: auto;
   }
 
@@ -250,13 +271,16 @@
     float: none;
     margin: auto;
     margin-bottom: 3rem;
-    width: 20rem;
-    height: 22rem;
+    width: 90%;
+    max-width: 25rem;
+    min-width: 15rem;
+    height: auto;
   }
 
   .connect-pic {
-    width: 20rem;
-    height: auto;
+  width: 100%;
+  height: auto;
+  transform: scale(1.05);
   }
 
 }

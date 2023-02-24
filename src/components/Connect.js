@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 import EmailIcon from '../images/email-icon.png';
 import PhoneIcon from '../images/phone-icon.png';
 import InstaIcon from '../images/insta-icon.png';
@@ -19,7 +20,7 @@ function Connect(props) {
 				<img className='connect-icons' src={EmailIcon} alt='email-icon' />
 				<br />
 				<a
-					className='link'
+					className='link animate__animated animate__fadeIn'
 					target='_blank'
 					href='mailto:info@sassoinc.com'
 					subject='HTML link'>
@@ -31,7 +32,10 @@ function Connect(props) {
 				<div>
 					<img className='connect-icons' src={PhoneIcon} alt='phone-icon' />
 					<br />
-					<a className='link' target='_blank' href='tel:415-351-8171'>
+					<a
+						className='link animate__animated animate__fadeIn'
+						target='_blank'
+						href='tel:415-351-8171'>
 						415-351-8171
 					</a>
 					<hr />
@@ -41,7 +45,7 @@ function Connect(props) {
 					<img className='connect-icons' src={InstaIcon} alt='insta-icon' />
 					<br />
 					<a
-						className='link'
+						className='link animate__animated animate__fadeIn'
 						target='_blank'
 						href='https://www.instagram.com/sassoconstructioninc/'>
 						@SASSOinc
@@ -57,10 +61,10 @@ function Connect(props) {
 					/>
 					<br />
 					<a
-						className='link'
+						className='link animate__animated animate__fadeIn'
 						target='_blank'
 						href='https://www.google.com/maps/place/San+Francisco,+CA+94114/@37.7585676,-122.439346,15z/data=!4m5!3m4!1s0x808f7e05ae36d0fd:0x3bd07c36cd277bb7!8m2!3d37.7561438!4d-122.4325682'>
-						San Francisco CA 94114
+						San Francisco, CA 94114
 					</a>
 				</div>
 			</div>

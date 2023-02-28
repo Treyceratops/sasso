@@ -13,7 +13,7 @@ function Connect(props) {
 				{'.nav-connect { font-weight: bold; }'}
 				{'body { background: #8A898C; }'}
 			</style>
-			<div className='connect-pic-container'>
+			<div className='connect-pic-container animate__animated animate__fadeIn'>
 				<img className='connect-pic' src={ConnectPic} alt='kitchen-pic' />
 			</div>
 			<div>

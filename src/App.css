@@ -1,5 +1,6 @@
 .App {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial,
+    sans-serif;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: .12em;
@@ -56,6 +57,10 @@
 }
 
 .remodel-out {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   color: #8A898C;
   font-size: 2.5rem;
   letter-spacing: -0.1rem;
@@ -67,6 +72,10 @@
 }
 
 .repair-out {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   color: #8A898C;
   font-size: 2.5rem;
   letter-spacing: -0.1rem;
@@ -78,6 +87,10 @@
 }
 
 .reimagine-out {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   color: #8A898C;
   font-size: 2.5rem;
   letter-spacing: -0.1rem;
@@ -85,6 +98,10 @@
 }
 
 .home-logo {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 30rem;
   height: auto;
   animation-duration: 6s;
@@ -208,6 +225,13 @@
   height: 2rem;
   width: auto;
   transform: translateY(1rem);
+}
+
+@media only screen and (max-width: 450px) {
+
+  .nav-bar a {
+    margin: 0 -.5rem;
+    }
 }
 
 @media only screen and (max-width: 700px) {

@@ -25,28 +25,34 @@ function StatesStreet(props) {
 		Aos.init({ duration: 2000 });
 	}, []);
 	return (
-		<div className='states-street gallery'>
+		<div className='states-street'>
 			<style>
 				{'.nav-states-street { font-weight: bold; }'}
 				{'.nav-projects { font-weight: bold; }'}
 			</style>
-			<img data-aos='fade-up' src={Pic0} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic1} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic2} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic3} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic4} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic5} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic6} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic7} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic8} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic9} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic10} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic11} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic12} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic13} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic14} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic15} alt='states-street-pic' />
-			<img data-aos='fade-up' src={Pic16} alt='states-street-pic' />
+			<h1 className='before-after'>Finished Project</h1>
+			<div className='gallery'>
+				<img data-aos='fade-up' src={Pic0} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic1} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic2} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic3} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic4} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic5} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic6} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic7} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic8} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic9} alt='states-street-pic' />
+			</div>
+			<h1 className='before-after'>Before</h1>
+			<div className='gallery'>
+				<img data-aos='fade-up' src={Pic10} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic11} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic12} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic13} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic14} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic15} alt='states-street-pic' />
+				<img data-aos='fade-up' src={Pic16} alt='states-street-pic' />
+			</div>
 		</div>
 	);
 }

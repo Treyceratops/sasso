@@ -11,7 +11,6 @@ function Home(props) {
 				{'.nav-bar a { color: white; }'}
 				{'.nav { background: black; }'}
 				{'.nav-logo { visibility: hidden; }'}
-				{'.footer, .push { display: none; }'}
 			</style>
 			<div className='remodel-in animate__animated animate__fadeIn'>
 				<h2 className='remodel-out animate__animated animate__fadeOut'>

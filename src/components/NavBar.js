@@ -13,12 +13,37 @@ function NavBar(props) {
 				<Link className='nav-about' to='/about'>
 					About
 				</Link>
-				<Link className='nav-projects' to='/projects'>
+				<Link className='nav-projects' to='/kitchens'>
 					Projects
 				</Link>
 				<Link className='nav-connect' to='/connect'>
 					Connect
 				</Link>
+			</div>
+			<hr className='projects-hr' />
+			<div className='projects-nav-bar-container'>
+				<div className='projects-nav-bar'>
+					<Link className='nav-kitchens' to='/kitchens'>
+						Kitchens
+					</Link>
+					<Link className='nav-bathrooms' to='/bathrooms'>
+						Bathrooms
+					</Link>
+					<Link className='nav-decks' to='/decks'>
+						Decks
+					</Link>
+				</div>
+				<div className='projects-nav-bar'>
+					<Link className='nav-green-street' to='/green-street'>
+						Green Street
+					</Link>
+					<Link className='nav-rhode-island' to='/rhode-island'>
+						Rhode Island
+					</Link>
+					<Link className='nav-states-street' to='/states-street'>
+						States Street
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

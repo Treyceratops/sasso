@@ -17,19 +17,20 @@ function Connect(props) {
 			<div className='connect-pic-container animate__animated animate__fadeIn'>
 				<img className='connect-pic' src={ConnectPic} alt='kitchen-pic' />
 			</div>
-			<div>
-				<img className='connect-icons' src={EmailIcon} alt='email-icon' />
-				<br />
-				<a
-					className='link animate__animated animate__fadeIn'
-					target='_blank'
-					href='mailto:info@sassoinc.com'
-					subject='HTML link'>
-					info@sassoinc.com
-				</a>
-				<hr />
-			</div>
 			<div className='connect-divs'>
+				<div>
+					<img className='connect-icons' src={EmailIcon} alt='email-icon' />
+					<br />
+					<a
+						className='link animate__animated animate__fadeIn'
+						target='_blank'
+						href='mailto:info@sassoinc.com'
+						subject='HTML link'>
+						info@sassoinc.com
+					</a>
+					<hr />
+				</div>
+
 				<div>
 					<img className='connect-icons' src={PhoneIcon} alt='phone-icon' />
 					<br />

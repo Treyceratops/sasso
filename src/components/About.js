@@ -14,6 +14,7 @@ function About(props) {
 			<style>
 				{'.nav-about { font-weight: bold; }'}
 				{'body { background: white; }'}
+				{'.projects-nav-bar { display: none; }'}
 			</style>
 			<div className='about-red-block'>
 				<p data-aos='fade-right'>

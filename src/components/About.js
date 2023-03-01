@@ -2,6 +2,7 @@ import React from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Footer from './Footer';
 import Bathroom from '../images/about-bathroom-pic.jpeg';
 import Owners from '../images/about-owners-pic.jpeg';
 
@@ -88,6 +89,7 @@ function About(props) {
 					responds to the client's vision and expectations.
 				</p>
 			</div>
+			<Footer />
 		</div>
 	);
 }

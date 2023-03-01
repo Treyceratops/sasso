@@ -8,19 +8,8 @@
   text-align: center;
 }
 
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -2rem;
-}
-
-.footer, .push {
-  height: 2rem;
-
-}
-
 .footer {
   transform: translateX(38%);
-  font-size: .8rem;
   display: flex;
   gap: 1rem;
 }
@@ -30,12 +19,16 @@
   width: auto;
 }
 
+.license {
+  transform: translateY(-.6rem);
+}
+
 .nav {
   position: sticky;
   z-index: 1;
   top: 0;
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -46,8 +39,15 @@
   gap: 2rem;
 }
 
+.nav-logo {
+  height: 4rem;
+  width: auto;
+  position: absolute;
+  left: 1rem;
+}
+
 .projects-hr {
-  transform: translateY(3.60rem);
+  transform: translateY(2.2rem);
   color: #8A898C;
 }
 
@@ -65,9 +65,12 @@
   gap: 2rem;
 }
 
+.nav-bar a {
+  transform: translate(-2rem, 2.3rem);
+}
+
 .nav-bar a, .projects-nav-bar a {
   color: black;
-  transform: translate(-2rem, 2.3rem);
   text-decoration: none;
 }
 
@@ -75,14 +78,6 @@
 .projects-nav-bar a:hover {
   text-decoration: underline;
 }
-
-.nav-logo {
-  height: 4rem;
-  width: auto;
-  position: absolute;
-  left: 1rem;
-}
-
 
 .remodel-out {
   position: fixed;
@@ -129,7 +124,7 @@
   position: fixed;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -35%);
   width: 30rem;
   height: auto;
   animation-duration: 6s;
@@ -201,8 +196,12 @@
 }
 
 .gallery img {
-  width: 25rem;
+  width: 45rem;
   height: auto;
+}
+
+.before-after {
+  padding-top: 5rem;
 }
 
 .connect {
@@ -253,8 +252,8 @@
 
 @media only screen and (max-width: 450px) {
 
-  .nav-bar a {
-    margin: 0 -.5rem;
+  .nav-bar {
+    gap: 1rem;
     }
 }
 
@@ -279,7 +278,6 @@
     width: 90%;
     height: auto;
     max-width: 30rem;
-    min-width: 18rem;
   }
 
   .bathroom-renovation-pic-container {
@@ -287,7 +285,6 @@
     margin: auto;
     width: 100%;
     max-width: 41rem;
-    min-width: 15rem;
     height: auto;
   }
 
@@ -302,13 +299,18 @@
     margin: auto;
     width: 90%;
     max-width: 25rem;
-    min-width: 15rem;
     height: auto;
   }
 
   .owners-pic {
     width: 100%;
     height: auto;
+  }
+
+  .gallery img {
+    width: 95%;
+    height: auto;
+    max-width: 45rem;
   }
 
   .connect {
@@ -321,7 +323,6 @@
     margin-bottom: 3rem;
     width: 90%;
     max-width: 25rem;
-    min-width: 15rem;
     height: auto;
   }
 

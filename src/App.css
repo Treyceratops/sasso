@@ -46,6 +46,10 @@
   left: 1rem;
 }
 
+.hover {
+  margin: 0 -.5rem;
+}
+
 .dropdown .dropbtn {
   border: none;
   background-color: inherit;
@@ -71,7 +75,7 @@
   text-align: left;
 }
 
-.hover:hover, .nav:hover .dropdown-content {
+.hover:hover .dropdown-content {
   display: block;
 }
 
@@ -390,11 +394,11 @@
   .nav:hover .dropdown-content {
     display: block;
     top: -10rem;
-    left: 10rem;
+    left: 7rem;
   }
 
   .dropdown-content {
-    padding: 0 3rem 4rem 1rem;
+    padding: 0 1rem 4rem 1rem;
     box-shadow: none;
   }
   

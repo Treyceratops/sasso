@@ -15,10 +15,7 @@ function NavBar(props) {
 				</Link>
 				<Link className='hover'>
 					<div class='dropdown'>
-						<button class='dropbtn nav-projects'>
-							Projects▼
-							<i class='fa fa-caret-down'></i>
-						</button>
+						<button class='dropbtn nav-projects'>Projects▼</button>
 						<div class='dropdown-content'>
 							<span className='projects-nav'>
 								<Link className='nav-kitchens' to='/kitchens'>

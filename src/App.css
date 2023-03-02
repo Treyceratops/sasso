@@ -338,11 +338,7 @@
 }
 
 
-@media (orientation: portrait) {
-
-body {
-  flex-direction: column;
-}
+@media only screen and (max-height: 700px) {
 
 .nav {
     position: fixed;

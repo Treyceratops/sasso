@@ -409,12 +409,13 @@
     width: 13rem;
   }
 
-  .connect, .connect hr {
-    background-color: #8A898C;
+  .connect hr {
+    width: 8rem;
     border-color: black;
   }
 
   .connect-pic-container {
+    float: right;
     width: 15rem;
   }
 

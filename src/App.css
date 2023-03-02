@@ -337,7 +337,13 @@
 
 }
 
-/* @media only screen and (max-height: 700px) {
+
+@media (orientation: portrait) {
+
+body {
+  flex-direction: column;
+}
+
 .nav {
     position: fixed;
     z-index: 1;
@@ -391,4 +397,4 @@
   .connect-pic {
     width: 25rem;
   }
-} */
+}

@@ -13,6 +13,7 @@ function Home(props) {
 				{'.nav-logo { visibility: hidden; }'}
 				{'.nav-projects { color: white; }'}
 				{'.dropdown-content { background-color: black; }'}
+				{'.dropdown .dropbtn { color: white; }'}
 			</style>
 			<div className='remodel-in animate__animated animate__fadeIn'>
 				<h2 className='remodel-out animate__animated animate__fadeOut'>

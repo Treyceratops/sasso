@@ -46,36 +46,50 @@
   left: 1rem;
 }
 
+.dropdown .dropbtn {
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding-bottom: 1rem;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0 0 3rem 4rem;
+  display: block;
+  text-align: left;
+}
+
+.hover:hover, .nav:hover .dropdown-content {
+  display: block;
+}
+
 .projects-hr {
   transform: translateY(2.2rem);
   color: #8A898C;
-}
-
-.projects-nav-bar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  padding-top: 2rem;
-}
-
-.projects-nav-bar-container {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
 }
 
 .nav-bar a {
   transform: translate(-2rem, 2.3rem);
 }
 
-.nav-bar a, .projects-nav-bar a {
+.nav-bar a {
   color: black;
   text-decoration: none;
 }
 
-.nav-bar a:hover,
-.projects-nav-bar a:hover {
+.nav-bar a:hover {
   text-decoration: underline;
 }
 
@@ -319,10 +333,6 @@
     max-width: 45rem;
   }
 
-  /* .connect {
-    padding-bottom: 10rem;
-  } */
-
   .connect-pic-container {
     float: none;
     margin: auto;
@@ -375,9 +385,25 @@
   .nav-bar a {
     transform: translateY(2.5rem);
   }
+    
+  .hover:hover,
+  .nav:hover .dropdown-content {
+    display: block;
+    top: -10rem;
+    left: 10rem;
+  }
+
+  .dropdown-content {
+    padding: 0 3rem 4rem 1rem;
+    box-shadow: none;
+  }
+  
+  .dropdown-content a {
+    padding: .5rem 0;
+  }
 
   .projects-hr {
-    transform: translateY(2.2rem);
+    display: none;
   }
 
   .about, .connect, .home, .bathrooms, .decks, .green-street, .kitchens, .rhode-island, .states-street {

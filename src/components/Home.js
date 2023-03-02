@@ -11,6 +11,8 @@ function Home(props) {
 				{'.nav-bar a { color: white; }'}
 				{'.nav { background: black; }'}
 				{'.nav-logo { visibility: hidden; }'}
+				{'.nav-projects { color: white; }'}
+				{'.dropdown-content { background-color: black; }'}
 			</style>
 			<div className='remodel-in animate__animated animate__fadeIn'>
 				<h2 className='remodel-out animate__animated animate__fadeOut'>

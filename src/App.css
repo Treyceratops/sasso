@@ -249,6 +249,7 @@
   width: 3rem;
   height: auto;
 }
+
 .connect hr {
   width: 15rem;
   border: 1px solid #8A898C;
@@ -259,6 +260,7 @@
   .nav-bar {
     gap: 1rem;
     }
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -268,6 +270,7 @@
       h2 {
         font-size: 3vw;
       }
+
 }
 
 @media only screen and (max-width: 1060px) {
@@ -338,7 +341,7 @@
 }
 
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 400px) {
 
   p,
     ul,
@@ -418,4 +421,5 @@
   .connect-pic {
     width: 15rem;
   }
+
 }

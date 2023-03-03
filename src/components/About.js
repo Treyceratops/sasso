@@ -20,8 +20,8 @@ function About(props) {
 			<div className='about-red-block'>
 				<p data-aos='fade-right'>
 					Sasso Construction is a LGBTQ+ owned/operated general and electrical
-					contracting company specializing in exterior and exterior remodels in
-					San Francisco and the Bay Area.
+					contracting company. We specialize in interior and exterior remodels
+					in the San Francisco Bay Area.
 				</p>
 				<div className='bathroom-renovation-pic-container'>
 					<img
@@ -31,8 +31,8 @@ function About(props) {
 					/>
 				</div>
 				<p data-aos='fade-right'>
-					Whether it’s in a high rise, condo, or single-family home, we have 15
-					years of experience in a variety of projects, including but not
+					Whether it’s in a high rise, a condo, or a single-family home, we have
+					15 years of experience in a variety of projects, including but not
 					limited to:
 				</p>
 				<ul data-aos='fade-right'>
@@ -48,13 +48,6 @@ function About(props) {
 					<li>EV Charging Stations</li>
 					<li>Interior and Exterior Lighting</li>
 				</ul>
-				{/* <div className='bathroom-renovation-pic-container'>
-					<img
-						className='bathroom-renovation-pic'
-						src={Bathroom}
-						alt='bathroom-renovation-pic'
-					/>
-				</div> */}
 				<p data-aos='fade-right'>
 					Every project has its own particular needs and challenges. Sasso
 					Construction, Inc. has the experience and know-how to turn your vision
@@ -72,10 +65,9 @@ function About(props) {
 					heading residential construction companies. Paul brings quality
 					control, problem solving, and an almost instinctive eye for space
 					planning and structural requirements to every project. His ability to
-					connect and coordinate with the client, design professionals, the
-					Sasso team, material vendors, our trade partners, and the SF building
-					department are critically important to project success and client
-					satisfaction.
+					connect and coordinate with the client, design professionals, material
+					vendors, our trade partners, and the SF building department are
+					critically important to project success and client satisfaction.
 				</p>
 				<br />
 				<h3 data-aos='fade-left'>Brian Stamper (Principal)</h3>

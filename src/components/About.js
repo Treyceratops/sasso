@@ -19,9 +19,9 @@ function About(props) {
 			</style>
 			<div className='about-red-block'>
 				<p data-aos='fade-right'>
-					Sasso Construction is a LGBTQ+ owned and operated general and
-					electrical contracting company specializing in exterior and exterior
-					remodels in San Francisco and the Bay Area.
+					Sasso Construction is a LGBTQ+ owned/operated general and electrical
+					contracting company specializing in exterior and exterior remodels in
+					San Francisco and the Bay Area.
 				</p>
 				<div className='bathroom-renovation-pic-container'>
 					<img

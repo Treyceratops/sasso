@@ -19,7 +19,9 @@ function Connect(props) {
 			</div>
 			<div className='connect-divs'>
 				<div>
-					<img className='connect-icons' src={EmailIcon} alt='email-icon' />
+					<a target='_blank' href='mailto:info@sassoinc.com'>
+						<img className='connect-icons' src={EmailIcon} alt='email-icon' />
+					</a>
 					<br />
 					<a
 						className='link animate__animated animate__fadeIn'
@@ -32,7 +34,9 @@ function Connect(props) {
 				</div>
 
 				<div>
-					<img className='connect-icons' src={PhoneIcon} alt='phone-icon' />
+					<a target='_blank' href='tel:415-351-8171'>
+						<img className='connect-icons' src={PhoneIcon} alt='phone-icon' />
+					</a>
 					<br />
 					<a
 						className='link animate__animated animate__fadeIn'
@@ -44,7 +48,11 @@ function Connect(props) {
 				</div>
 
 				<div>
-					<img className='connect-icons' src={InstaIcon} alt='insta-icon' />
+					<a
+						target='_blank'
+						href='https://www.instagram.com/sassoconstructioninc/'>
+						<img className='connect-icons' src={InstaIcon} alt='insta-icon' />
+					</a>
 					<br />
 					<a
 						className='link animate__animated animate__fadeIn'
@@ -56,11 +64,15 @@ function Connect(props) {
 				</div>
 
 				<div>
-					<img
-						className='connect-icons'
-						src={LocationIcon}
-						alt='location-icon'
-					/>
+					<a
+						target='_blank'
+						href='https://www.google.com/maps/place/San+Francisco,+CA+94114/@37.7585676,-122.439346,15z/data=!4m5!3m4!1s0x808f7e05ae36d0fd:0x3bd07c36cd277bb7!8m2!3d37.7561438!4d-122.4325682'>
+						<img
+							className='connect-icons'
+							src={LocationIcon}
+							alt='location-icon'
+						/>
+					</a>
 					<br />
 					<a
 						className='link animate__animated animate__fadeIn'
